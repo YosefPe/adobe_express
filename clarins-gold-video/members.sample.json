@@ -1,0 +1,7 @@
+{
+  "rows": [
+    { "firstName": "Sophie", "currentPoints": 5200, "asOfDate": "September 28, 2026", "shopUrl": "clarinsusa.com" },
+    { "firstName": "Margaux", "currentPoints": 7350, "asOfDate": "September 28, 2026", "shopUrl": "clarinsusa.com" },
+    { "firstName": "Alexandra", "currentPoints": 2900, "asOfDate": "September 28, 2026", "shopUrl": "clarinsusa.com" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "batchPath": "/home/user/adobe_express/clarins-gold-video/members.sample.json",
+  "manifestPath": "/home/user/adobe_express/clarins-gold-video/renders/manifest.json",
+  "total": 3,
+  "completed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "rows": [
+    {
+      "index": 0,
+      "outputPath": "/home/user/adobe_express/clarins-gold-video/renders/clarins-gold-Sophie.mp4",
+      "status": "completed",
+      "durationMs": 26000,
+      "renderTimeMs": 37565,
+      "error": null,
+      "startedAt": "2026-09-28T14:47:28.830Z",
+      "completedAt": "2026-09-28T14:48:06.800Z",
+      "variables": {
+        "firstName": "Sophie",
+        "currentPoints": 5200,
+        "asOfDate": "September 28, 2026",
+        "shopUrl": "clarinsusa.com"
+      }
+    },
+    {
+      "index": 1,
+      "outputPath": "/home/user/adobe_express/clarins-gold-video/renders/clarins-gold-Margaux.mp4",
+      "status": "completed",
+      "durationMs": 26000,
+      "renderTimeMs": 36690,
+      "error": null,
+      "startedAt": "2026-09-28T14:48:06.801Z",
+      "completedAt": "2026-09-28T14:48:43.827Z",
+      "variables": {
+        "firstName": "Margaux",
+        "currentPoints": 7350,
+        "asOfDate": "September 28, 2026",
+        "shopUrl": "clarinsusa.com"
+      }
+    },
+    {
+      "index": 2,
+      "outputPath": "/home/user/adobe_express/clarins-gold-video/renders/clarins-gold-Alexandra.mp4",
+      "status": "completed",
+      "durationMs": 26000,
+      "renderTimeMs": 39159,
+      "error": null,
+      "startedAt": "2026-09-28T14:48:43.827Z",
+      "completedAt": "2026-09-28T14:49:23.323Z",
+      "variables": {
+        "firstName": "Alexandra",
+        "currentPoints": 2900,
+        "asOfDate": "September 28, 2026",
+        "shopUrl": "clarinsusa.com"
+      }
+    }
+  ]
+}
