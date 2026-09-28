@@ -5,21 +5,24 @@
       "firstName": "Sophie",
       "currentPoints": 5200,
       "asOfDate": "September 28, 2026",
-      "shopUrl": "clarinsusa.com"
+      "shopUrl": "clarinsusa.com",
+      "voiceover": "assets/vo/CC-100231.wav"
     },
     {
       "memberId": "CC-100872",
       "firstName": "Margaux",
       "currentPoints": 7350,
       "asOfDate": "September 28, 2026",
-      "shopUrl": "clarinsusa.com"
+      "shopUrl": "clarinsusa.com",
+      "voiceover": "assets/vo/CC-100872.wav"
     },
     {
       "memberId": "CC-101455",
       "firstName": "Alexandra",
       "currentPoints": 2900,
       "asOfDate": "September 28, 2026",
-      "shopUrl": "clarinsusa.com"
+      "shopUrl": "clarinsusa.com",
+      "voiceover": "assets/vo/CC-101455.wav"
     }
   ]
 }

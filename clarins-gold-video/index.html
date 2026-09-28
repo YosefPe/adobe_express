@@ -5,7 +5,9 @@
     {"id":"firstName","type":"string","label":"First name","default":"Sophie","maxLength":14},
     {"id":"currentPoints","type":"number","label":"Current points","default":5200,"min":2500,"max":7999,"step":1},
     {"id":"asOfDate","type":"string","label":"Points as of","default":"September 28, 2026","maxLength":24},
-    {"id":"shopUrl","type":"string","label":"Shop URL shown on screen","default":"clarinsusa.com","maxLength":32}
+    {"id":"shopUrl","type":"string","label":"Shop URL shown on screen","default":"clarinsusa.com","maxLength":32},
+    {"id":"memberId","type":"string","label":"Member ID (output file name)","default":"CC-100231","maxLength":40},
+    {"id":"voiceover","type":"string","label":"Voiceover file (from scripts/build-voiceover.mjs)","default":"assets/vo/CC-100231.wav","maxLength":80}
   ]'
 >
   <head>
@@ -245,6 +247,17 @@
         <div class="url" id="cta-url" data-var-text="shopUrl">clarinsusa.com</div>
         <div class="fine" id="fine">Based on <span id="fine-pts">5,200</span> points as of <span data-var-text="asOfDate">September 28, 2026</span>. Estimate assumes 11 points per $1 on eligible purchases. Club Clarins terms apply.</div>
       </section>
+
+      <!-- Audio: personalized voiceover, placeholder music bed, SFX -->
+      <audio id="vo" src="assets/vo/CC-100231.wav" data-var-src="voiceover" data-start="0" data-duration="26" data-track-index="10" data-volume="1"></audio>
+      <audio id="music-bed" src="assets/audio/music-bed.wav" data-start="0" data-duration="26" data-track-index="11" data-volume="0.32"></audio>
+      <audio id="sfx-whoosh-1" src="assets/sfx/whoosh-short.mp3" data-start="3.85" data-duration="0.57" data-track-index="12" data-volume="0.18"></audio>
+      <audio id="sfx-whoosh-2" src="assets/sfx/whoosh-short.mp3" data-start="7.85" data-duration="0.57" data-track-index="12" data-volume="0.18"></audio>
+      <audio id="sfx-chime" src="assets/sfx/chime.mp3" data-start="10.4" data-duration="2.5" data-track-index="13" data-volume="0.22"></audio>
+      <audio id="sfx-whoosh-3" src="assets/sfx/whoosh-short.mp3" data-start="12.85" data-duration="0.57" data-track-index="12" data-volume="0.18"></audio>
+      <audio id="sfx-sparkle" src="assets/sfx/sparkle.mp3" data-start="17.6" data-duration="1.8" data-track-index="13" data-volume="0.3"></audio>
+      <audio id="sfx-whoosh-4" src="assets/sfx/whoosh-short.mp3" data-start="21.85" data-duration="0.57" data-track-index="12" data-volume="0.18"></audio>
+      <audio id="sfx-click" src="assets/sfx/click-soft.mp3" data-start="22.85" data-duration="0.36" data-track-index="13" data-volume="0.3"></audio>
     </div>
 
     <script>
